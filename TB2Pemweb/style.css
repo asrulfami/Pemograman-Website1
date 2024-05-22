@@ -1,0 +1,81 @@
+:root {
+    --bg-color: #080808;
+    --second-bg-color: #131313;
+    --text-color: #ffffff;
+    --main-color: #bd00c7;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background: url('ungu.webp') no-repeat center center fixed;
+    background-size: cover;
+    color: var(--text-color); /* Menggunakan variabel untuk warna teks */
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    width: 80%;
+    margin: 0 auto;
+    padding: 20px;
+    background: linear-gradient(90deg, var(--bg-color) 0%, var(--second-bg-color) 50%, var(--main-color) 100%);
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+h1 {
+    text-align: center;
+    color: var(--main-color); /* Menggunakan variabel untuk warna teks */
+}
+
+h2, label, input {
+    color: var(--main-color); /* Menggunakan variabel untuk warna teks */
+    background: var();
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+    background-color: var(--main-color); /* Menggunakan variabel untuk warna latar belakang */
+}
+
+th {
+    background-color: var(--bg-color); /* Menggunakan variabel untuk warna latar belakang */
+    color: var(--text-color); /* Menggunakan variabel untuk warna teks */
+}
+
+tr:nth-child(even) td {
+    background-color: var(--second-bg-color); /* Menggunakan variabel untuk warna latar belakang */
+    color: var(--text-color); /* Menggunakan variabel untuk warna teks */
+}
+
+tr:nth-child(odd) td {
+    background-color: var(--bg-color); /* Menggunakan variabel untuk warna latar belakang */
+    color: var(--text-color); /* Menggunakan variabel untuk warna teks */
+}
+
+form {
+    margin-top: 20px;
+    padding: 20px;
+    background-color: rgba(255, 255, 255, 0.9); /* Putih dengan transparansi */
+    border-radius: 10px;
+    border: 1px solid rgba(0, 0, 0, 0.1);
+}
+
+form input, form button {
+    padding: 10px;
+    margin: 5px;
+    border: 1px solid rgba(0, 0, 0, 0.1);
+    border-radius: 5px;
+}
+
+form button {
+    background-color: var(--main-color); /* Menggunakan variabel untuk warna latar belakang */
+    color: var(--text-color); /* Menggunakan variabel untuk warna teks */
+}
+
+/* Warna untuk nama, ID ML, Gmail, Beli Diamond, dan Tanggal Beli */
+form label {
+    color: var(--main-color); /* Menggunakan variabel untuk warna teks */
+}
